@@ -1,8 +1,14 @@
 <template>
   <div>
-    <ul>
+    <ul id="menu">
         <li>
             <router-link to="/">Home</router-link>
+        </li>
+        <li>
+          <router-link to="/collatz">Collatz</router-link>
+        </li>
+        <li>
+          <router-link to="/tablamultiplicar">Tabla Multiplicar</router-link>
         </li>
     </ul>
   </div>
@@ -15,5 +21,8 @@ export default {
 </script>
 
 <style>
-
+  ul#menu li{
+display: inline;
+padding: 2%;
+}
 </style>

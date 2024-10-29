@@ -1,5 +1,9 @@
 <template>
- <MenuComponent/>
+ <div>
+    <MenuComponent/>
+    <hr>
+    <router-view></router-view>
+  </div>
 </template>
 
 <script>
